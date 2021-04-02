@@ -3,11 +3,9 @@ import { BrowserRouter as Router, Link, Switch } from 'react-router-dom';
 
 const App = () => {
   return (
-    <Router>
-    <>
+    <div>
       Hello from App
-    </>
-    </Router>
+    </div>
   )
 }
 
