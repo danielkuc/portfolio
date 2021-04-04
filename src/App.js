@@ -1,10 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Link, Switch } from 'react-router-dom';
+import './App.css';
+
 
 const App = () => {
   return (
-    <div>
-      Hello from App
+    <div className="container-flex vh-100 background">
+        <div >
+          Dan Pete Kuc
+      </div>
     </div>
   )
 }
