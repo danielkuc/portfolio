@@ -1,14 +1,13 @@
 import React from 'react';
 // import { BrowserRouter as Router, Link, Switch } from 'react-router-dom';
 import './App.css';
+import Intro from './components/Intro';
 
 
 const App = () => {
   return (
-    <div className="container-flex vh-100 background">
-        <div >
-          Dan Pete Kuc
-      </div>
+    <div>
+      <Intro />
     </div>
   )
 }
