@@ -1,3 +1,7 @@
+.body {
+  font-family: 'Lato', sans-serif;
+}
+
 .background {
   background: green;
 }
@@ -9,4 +13,8 @@
 .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: upright;
+}
+
+#particles-js {
+  height: 100vh !important;
 }
