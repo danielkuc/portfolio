@@ -4,6 +4,7 @@ import Particles from 'react-particles-js';
 
 const Background = () => {
   return (
+      <div className="background">
       <Particles id="particles-js" params={{
                 particles: {
                     number: {
@@ -42,6 +43,7 @@ const Background = () => {
                  }    
             }}    
           />
+    </div>
   )
 }
 

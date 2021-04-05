@@ -3,11 +3,11 @@
 }
 
 .background {
-  background: green;
+  z-index: -10;
 }
 
 .test {
-  background: grey;
+  z-index: 1000;
 }
 
 .vertical-text {
