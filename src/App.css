@@ -1,13 +1,12 @@
 .body {
+  margin: 0;
   font-family: 'Lato', sans-serif;
 }
 
-.background {
-  z-index: -10;
-}
-
-.test {
-  z-index: 1000;
+.info {
+  position: absolute;
+  top: 30%;
+  left: 40%;
 }
 
 .vertical-text {
@@ -15,6 +14,6 @@
   text-orientation: upright;
 }
 
-#particles-js {
-  height: 100vh !important;
+#particle-js {
+  height: 100vh;
 }
