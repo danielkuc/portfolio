@@ -5,15 +5,19 @@
 
 .info {
   position: absolute;
-  top: 30%;
-  left: 40%;
+  top: 20%;
+  left: 45%;
 }
 
 .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: upright;
+  letter-spacing: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: larger;
 }
 
-#particle-js {
-  height: 100vh;
+.test {
+  background-color: grey;
 }
