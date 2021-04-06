@@ -5,8 +5,9 @@
 
 .info {
   position: absolute;
-  top: 20vw;
-  left: 30vw;
+  top: 35vh;
+  right: 40vw;
+  left: 40vw;
 }
 
 .vertical-text {
