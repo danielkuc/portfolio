@@ -11,7 +11,7 @@ const About = () => {
 
 const StyledBackground = styled.div`
   height: 100vh;
-  background-color: grey;
+  background-color: #082447;
   color:white ;
 `
 
