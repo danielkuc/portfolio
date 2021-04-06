@@ -1,22 +1,25 @@
 .body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato' !important;
+}
+
+.text-main {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+
+.text-secondary {
+  font-family: 'Lato';
+  font-weight: 500;
 }
 
 .info {
   position: absolute;
-  top: 35vh;
-  right: 40vw;
-  left: 40vw;
-}
-
-.vertical-text {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  letter-spacing: 1rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: larger;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
 }
 
 .test {

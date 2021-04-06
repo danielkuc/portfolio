@@ -1,13 +1,20 @@
 import React from 'react'
 import Project from './Project'
+import styled from 'styled-components'
 
 const ProjectList = () => {
   return (
-    <div>
+    <StyledProjects>
       Hello from Project List
       <Project/>
-    </div>
+    </StyledProjects>
   )
 }
+
+const StyledProjects = styled.div`
+  height:100vh;
+  background-color:black;
+  color:white;
+`
 
 export default ProjectList

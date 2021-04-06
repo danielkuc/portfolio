@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-      Hello from header
+    <div className="text-secondary">
+      Front End Developer
     </div>
   )
 }
