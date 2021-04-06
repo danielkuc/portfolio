@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 
 const Background = () => {
   return (
-      <Particles id="particles-js" params={{
+      <Particles id="particles-js" className="vh-100" params={{
                 particles: {
                     number: {
                         value: 25,
