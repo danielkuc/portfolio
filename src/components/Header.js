@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div className="text-secondary">
-      Front End Developer
+      <p className="fadeInDown">Front End Developer</p>
     </div>
   )
 }
