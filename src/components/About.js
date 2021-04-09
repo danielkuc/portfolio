@@ -1,9 +1,35 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const useOnScreen = (options) => {
+  const ref = React.useRef();
+  const [visible, setVisible] = React.useState(false);
+
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setVisible(entry.isIntersecting);
+    }, options);
+
+    if(ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if(ref.current) {
+        observer.unobserve(ref.current)
+      }
+    }
+  }, [ref, options]);
+
+  return [ref, visible];
+}
+
 const About = () => {
+
+  const [ref,visible] =useOnScreen({ treshhold: 0.2 });
+
   return (
-    <StyledBackground>
+    <StyledBackground ref={ref}>
       <div className="container">
         <div className="row">
           <div className="col-12 col-12-md my-5 fadeIn">
