@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// custom hook to keep track of DOM element and when it becomes visible.
 const useOnScreen = (options) => {
   const ref = React.useRef();
   const [visible, setVisible] = React.useState(false);
@@ -25,22 +26,24 @@ const useOnScreen = (options) => {
 }
 
 const About = () => {
+  // deconstructs custom hook
+  const [ref,visible] = useOnScreen({ threshold: 0.2 });
 
-  const [ref,visible] =useOnScreen({ treshhold: 0.2 });
 
   return (
+    // ADD ref = ref from hook for it to work
     <StyledBackground ref={ref}>
       <div className="container">
         <div className="row">
-          <div className="col-12 col-12-md my-5 fadeIn">
+          <div className={`col-12 col-12-md my-5 opacity ${visible ? "fadeIn" : null }`}>
             <p>About Me</p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam temporibus distinctio omnis laudantium labore delectus dicta, quos eos officiis sed quas tenetur quo pariatur earum repellat commodi tempore. Doloribus, quis.
           </div>
-          <div className="col-12 col-md-6 my-5 fadeInLeft">
+          <div className={`col-12 col-md-6 my-5 ${visible ? "fadeInLeft" : null }`}>
             <p>Inspiration</p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae architecto, quibusdam molestias nobis, repellat cupiditate nisi illo natus cumque dignissimos magni quae! Perferendis recusandae nesciunt dolorem ea, suscipit eum!
           </div>
-          <div className="col-12 col-md-6 my-5 fadeInRight">
+          <div className={`col-12 col-md-6 my-5 ${visible ? "fadeInRight" : null}`}>
             <p>Philosophy</p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima eveniet accusamus sapiente ratione veniam amet, libero eum consequatur nulla minus impedit sint reprehenderit quis officiis voluptatibus nemo provident sit explicabo?
           </div>

@@ -26,6 +26,11 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.opacity {
+  opacity: 0;
+}
+
+/* ANIMATIONS */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -57,6 +62,10 @@ body {
     -webkit-transform: none;
     transform: none;
   }
+}
+
+.font-smaller {
+  font-weight: 400 !important;
 }
 
 .fadeInUp {
@@ -95,9 +104,8 @@ body {
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  -webkit-animation-duration: 2s;
-  animation-delay: 5s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -122,9 +130,8 @@ body {
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
-  -webkit-animation-duration: 1s;
-  animation-delay: 5s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -157,9 +164,8 @@ body {
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
-  -webkit-animation-duration: 1s;
-  animation-delay: 5s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
