@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import About from './About';
 
 // custom hook to keep track of DOM element and when it becomes visible.
 const useOnScreen = (options) => {
@@ -35,11 +34,14 @@ const Story = () => {
     // ADD ref = ref from hook for it to work
     <StyledBackground ref={ref}>
       <div className="container">
-        <div className="row">
-          <About visible={visible}/>
-          <div className={`col-12 col-md-6 ${visible ? "fadeInLeft" : null }`}>
+        <div className="row about">
+          <div className={`col-12 col-md-12 ${visible ? "fadeIn" : null}`}>
+            <p>About Me</p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima eveniet accusamus sapiente ratione veniam amet, libero eum consequatur nulla minus impedit sint reprehenderit quis officiis voluptatibus nemo provident sit explicabo?
+          </div>
+          <div className={`col-12 col-md-6 ${visible ? "fadeInLeft" : null}`}>
             <p>Inspiration</p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae architecto, quibusdam molestias nobis, repellat cupiditate nisi illo natus cumque dignissimos magni quae! Perferendis recusandae nesciunt dolorem ea, suscipit eum!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima eveniet accusamus sapiente ratione veniam amet, libero eum consequatur nulla minus impedit sint reprehenderit quis officiis voluptatibus nemo provident sit explicabo?
           </div>
           <div className={`col-12 col-md-6 ${visible ? "fadeInRight" : null}`}>
             <p>Philosophy</p>
