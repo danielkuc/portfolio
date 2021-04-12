@@ -35,17 +35,21 @@ const Story = () => {
     <StyledBackground ref={ref}>
       <div className="container">
         <div className="row about">
+          <p className="header">Who is this guy anyway?</p>
           <div className={`col-12 col-md-12 ${visible ? "fadeIn" : null}`}>
-            <p>About Me</p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima eveniet accusamus sapiente ratione veniam amet, libero eum consequatur nulla minus impedit sint reprehenderit quis officiis voluptatibus nemo provident sit explicabo?
+            Good question, quick introductions are in order!
+            My name is Dan, nice to meet you!
+            I am a front end, aspiring to full stack, developer and I hail from the sunny planet Earth,
+            lovely place by the way, you should come and visit. Internet, software, applications and websites are my passion and were my hobby for a long time. After a successful career in health care I have decided to take a leap and commit to my hobby full time.
+            
           </div>
           <div className={`col-12 col-md-6 ${visible ? "fadeInLeft" : null}`}>
             <p>Inspiration</p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima eveniet accusamus sapiente ratione veniam amet, libero eum consequatur nulla minus impedit sint reprehenderit quis officiis voluptatibus nemo provident sit explicabo?
+              There are a number of things I take inspiration from, but you could sum them up in few words: nature, simplicity, space, motion and people. Our world and surroundings are a source of unlimited fuel for my imagination.
           </div>
-          <div className={`col-12 col-md-6 ${visible ? "fadeInRight" : null}`}>
+          <div className={`col-12 col-md-6 mb-5 ${visible ? "fadeInRight" : null}`}>
             <p>Philosophy</p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima eveniet accusamus sapiente ratione veniam amet, libero eum consequatur nulla minus impedit sint reprehenderit quis officiis voluptatibus nemo provident sit explicabo?
+              I believe life should be simple, less is sometimes more and simplifying things is a way to go. I strive to build fast, responsive and accessible software.
           </div>
         </div>
       </div>
@@ -54,7 +58,6 @@ const Story = () => {
 }
 
 const StyledBackground = styled.div`
-  min-height: 100vh;
   background-color: #082447;
   color:white ;
 `
