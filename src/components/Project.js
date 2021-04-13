@@ -2,8 +2,8 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div className="col-10 mx-auto col-md-4 ">
-      <div className="card">
+    <div className="col-10 mx-auto col-md-4 mt-5">
+      <div className="card p-4">
         <p>Title</p>
         <div className="img-container">
           {/* <img src="" alt=""/> */}

@@ -34,6 +34,7 @@ div.about p {
 .header {
   margin: 0 auto;
   margin-bottom: 3rem;
+  opacity: 0;
 }
 
 .text-secondary {

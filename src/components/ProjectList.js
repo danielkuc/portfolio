@@ -5,8 +5,13 @@ import styled from 'styled-components'
 const ProjectList = () => {
   return (
     <StyledProjects>
-      <div className="container">
+      <div className="container my-5">
         <div className="row">
+          <Project/>
+          <Project/>
+          <Project/>
+          <Project/>
+          <Project/>
           <Project/>
         </div>
       </div>
