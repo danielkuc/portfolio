@@ -1,3 +1,7 @@
+:root {
+  --blueBackground: #082447;
+}
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif !important;
@@ -16,6 +20,10 @@ div.about div {
   font-size: 1.2rem;
   opacity: 0;
   margin: auto auto;
+}
+
+li {
+  background-color: var(--blueBackground) !important;
 }
 
 div.about p {
@@ -41,6 +49,11 @@ div.about p {
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
+}
+
+.story {
+  background-color: var(--blueBackground);
+  color: white;
 }
 
 /* ANIMATIONS */

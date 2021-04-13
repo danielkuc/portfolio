@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 // custom hook to keep track of DOM element and when it becomes visible.
 const useOnScreen = (options) => {
@@ -32,13 +31,13 @@ const Story = () => {
 
   return (
     // ADD ref = ref from hook for it to work
-    <StyledBackground ref={ref}>
+    <div ref={ref} className="story">
       <div className="container">
         <div className="row about">
-          <p className="header">Who is this guy anyway?</p>
+          <p className={`header ${visible ? "fadeIn" : null}`}>Who is this guy anyway?</p>
           <div className={`col-12 col-md-12 ${visible ? "fadeIn" : null}`}>
-            Good question, quick introductions are in order!
-            My name is Dan, nice to meet you!
+            <span className="d-block">Good question, quick introductions are in order!
+            My name is Dan, nice to meet you!</span>
             I am a front end, aspiring to full stack, developer and I hail from the sunny planet Earth,
             lovely place by the way, you should come and visit. Internet, software, applications and websites are my passion and were my hobby for a long time. After a successful career in health care I have decided to take a leap and commit to my hobby full time.
             
@@ -47,19 +46,26 @@ const Story = () => {
             <p>Inspiration</p>
               There are a number of things I take inspiration from, but you could sum them up in few words: nature, simplicity, space, motion and people. Our world and surroundings are a source of unlimited fuel for my imagination.
           </div>
-          <div className={`col-12 col-md-6 mb-5 ${visible ? "fadeInRight" : null}`}>
+          <div className={`col-12 col-md-6 ${visible ? "fadeInRight" : null}`}>
             <p>Philosophy</p>
-              I believe life should be simple, less is sometimes more and simplifying things is a way to go. I strive to build fast, responsive and accessible software.
+              I believe life should be simple, less is sometimes more and simplifying things is a way to go. I strive to build fast, responsive and easy to use software, always focusing on the user experience.
+          </div>
+          <div className={`col-12 col-md-12 mb-5 ${visible ? "fadeIn" : null}`}>
+            <p>Skills</p>
+              <span>Here are some of the technologies I am most proficient with: </span>
+              <ul className="list-group list-group-horizontal-md">
+                <li className="list-group-item">HTML5</li>
+                <li className="list-group-item">CSS3</li>
+                <li className="list-group-item">Sass</li>
+                <li className="list-group-item">JavaScript</li>
+                <li className="list-group-item">React</li>
+                <li className="list-group-item">Redux</li>
+              </ul>
           </div>
         </div>
       </div>
-    </StyledBackground>
+    </div>
   )
 }
-
-const StyledBackground = styled.div`
-  background-color: #082447;
-  color:white ;
-`
 
 export default Story;
