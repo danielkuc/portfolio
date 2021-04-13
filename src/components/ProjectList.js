@@ -5,16 +5,17 @@ import styled from 'styled-components'
 const ProjectList = () => {
   return (
     <StyledProjects>
-      Hello from Project List
-      <Project/>
+      <div className="container">
+        <div className="row">
+          <Project/>
+        </div>
+      </div>
     </StyledProjects>
   )
 }
 
 const StyledProjects = styled.div`
-  height:100vh;
-  background-color:black;
-  color:white;
+  min-height:100vh;
 `
 
 export default ProjectList
