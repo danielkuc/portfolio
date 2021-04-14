@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div className="col-10 mx-auto col-md-4 mt-5">
+    <div className="col-12 col-md-6 col-lg-4 mt-3">
       <div className="card p-4">
         <p>Title</p>
         <div className="img-container">
