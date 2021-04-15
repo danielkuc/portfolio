@@ -1,5 +1,9 @@
 import React from 'react';
 import logo from '../images/css.png'
+import html from '../images/html5.svg'
+import sass from '../images/sass-1.svg'
+import react from '../images/react-2.svg'
+
 // custom hook to keep track of DOM element and when it becomes visible.
 const useOnScreen = (options) => {
   const ref = React.useRef();
@@ -54,11 +58,11 @@ const Story = () => {
             <p>Skills</p>
               <span>Here are some of the technologies I am most proficient with: </span>
               <ul className="list-group list-group-horizontal-md">
-                <li className="list-group-item"><img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.svg" alt="html icon"/>HTML5</li>
+                <li className="list-group-item"><img src={html} alt="html logo"/>HTML5</li>
                 <li className="list-group-item"><img src={logo} alt="css icon"/>CSS3</li>
-                <li className="list-group-item">Sass</li>
+                <li className="list-group-item"><img src={sass} alt="sass logo"/>Sass</li>
                 <li className="list-group-item"><img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.svg" alt=""/>JavaScript</li>
-                <li className="list-group-item">React</li>
+                <li className="list-group-item"><img src={react} alt="react logo"/>React</li>
                 <li className="list-group-item">Redux</li>
               </ul>
           </div>
