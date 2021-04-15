@@ -29,7 +29,12 @@ div.about div {
 }
 
 li {
-  background-color: var(--blueBackground) !important;
+  list-style-type: none;
+  background-color: white;
+  color: black;
+  padding-right: 1rem;
+  border-radius: 5px !important;
+  font-size: 1.5rem;
 }
 
 div.about p {
