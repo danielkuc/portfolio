@@ -10,7 +10,7 @@ const Project = ({title, description, tags}) => {
           {/* add link to img */}
           <span>{description}</span>
         </div>
-        {tags}
+        {tags.map(img => <img src={img} alt=""/>)}
       </div>
     </div>
   )
