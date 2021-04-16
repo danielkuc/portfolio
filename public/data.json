@@ -1,0 +1,16 @@
+{
+  "results": [
+  {
+    "id": 1,
+    "title":"e-commerce Store Front",
+    "description": "An e-commerce app made to practice",
+    "tags": "React, Bootstrap, CSS"
+  },
+  { 
+    "id" : 2,
+    "title":"MealApp",
+    "description": "A meal app using API",
+    "tags": "React, Bootstrap, Redux, CSS"
+  }
+]
+}
