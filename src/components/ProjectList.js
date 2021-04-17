@@ -19,8 +19,9 @@ const ProjectList = () => {
   } ,[]);
 
   return (
-    <div className="project pt-3">
+    <div className="project p-3 mb-5">
       <div className="container">
+        <p className="mx-auto">Here are some of the projects I worked on.</p>
         <div className="row">
           {projects.map(project => <Project title={project.title} description={project.description} logos={project.logos} key={project.id}/> )}
         </div>

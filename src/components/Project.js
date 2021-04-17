@@ -12,6 +12,8 @@ const Project = ({title, description, logos}) => {
         <div className="d-flex">
         {logos.map(img => <img src={img} alt="" className="card-logo"/>)}
         </div>
+        <a href="#" className="my-3">Source code</a>
+        <button className="btn btn-dark">Live project</button>
       </div>
   )
 }

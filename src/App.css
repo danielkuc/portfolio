@@ -68,8 +68,11 @@ div.about p {
   color: white;
 }
 
-.card p {
+.card {
   font-size: 1rem;
+}
+
+.card p {
   background-color: var(--purpleBackground);
   color: white;
   padding: 5px;
@@ -77,7 +80,7 @@ div.about p {
 }
 
 .card-logo {
-  height: 25px;
+  height: 40px;
 }
 
 /* ANIMATIONS */
