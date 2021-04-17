@@ -22,7 +22,7 @@ const ProjectList = () => {
     <div className="project pt-3">
       <div className="container">
         <div className="row">
-          {projects.map(project => <Project title={project.title} description={project.description} tags={project.tags} key={project.id}/> )}
+          {projects.map(project => <Project title={project.title} description={project.description} logos={project.logos} key={project.id}/> )}
         </div>
       </div>
     </div>

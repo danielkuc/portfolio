@@ -4,13 +4,7 @@
     "id": 1,
     "title":"e-commerce Store Front",
     "description": "An e-commerce app made to practice",
-    "tags": ["/images/react.svg", "/images/html5.svg"]
-  },
-  { 
-    "id" : 2,
-    "title":"MealApp",
-    "description": "A meal app using API",
-    "tags": ["React, Bootstrap, Redux, CSS, '../src/images/css3.svg"]
+    "logos": ["/images/react.svg", "/images/css3.svg", "/images/javascript.svg"]
   }
 ]
 }

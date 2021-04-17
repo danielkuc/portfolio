@@ -76,6 +76,10 @@ div.about p {
   border-radius: 2px;
 }
 
+.card-logo {
+  height: 25px;
+}
+
 /* ANIMATIONS */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
