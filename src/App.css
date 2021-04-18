@@ -35,6 +35,8 @@ li {
   padding-right: 1rem;
   border-radius: 5px !important;
   font-size: 1.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 div.about p {

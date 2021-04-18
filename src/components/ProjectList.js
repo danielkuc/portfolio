@@ -23,7 +23,11 @@ const ProjectList = () => {
       <div className="container">
         <p className="mx-auto">Here are some of the projects I worked on.</p>
         <div className="row">
-          {projects.map(project => <Project title={project.title} description={project.description} logos={project.logos} key={project.id}/> )}
+          {projects.map(project => {
+            const  {title, description, logos, id, github} = project;
+            const params = {title,description,logos,github};
+            return <Project params={params} key={id}/>
+          })}
         </div>
       </div>
     </div>
