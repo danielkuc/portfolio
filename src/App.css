@@ -11,9 +11,14 @@ body {
   overflow-x: hidden !important;
 }
 
-img {
+.img-list img,
+li img {
   height: 50px;
   margin: 1rem;
+}
+
+.card {
+  padding: 0 !important;
 }
 
 .text-main {
@@ -68,21 +73,6 @@ div.about p {
 .story {
   background-color: var(--blueBackground);
   color: white;
-}
-
-.card {
-  font-size: 1rem;
-}
-
-.card p {
-  background-color: var(--purpleBackground);
-  color: white;
-  padding: 5px;
-  border-radius: 2px;
-}
-
-.card-logo {
-  height: 40px;
 }
 
 /* ANIMATIONS */

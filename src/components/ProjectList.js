@@ -24,8 +24,8 @@ const ProjectList = () => {
         <p className="mx-auto">Here are some of the projects I worked on.</p>
         <div className="row">
           {projects.map(project => {
-            const  {title, description, logos, id, github} = project;
-            const params = {title,description,logos,github};
+            const  {title, description, logos, id, github, projectImg} = project;
+            const params = {title,description,logos,github, projectImg};
             return <Project params={params} key={id}/>
           })}
         </div>
