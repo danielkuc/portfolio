@@ -11,7 +11,7 @@ const Project = ({params}) => {
           <div className="d-flex img-list">
             {logos.map((img, index) => <img src={img} alt="" className="card-logo" key={index}/>)}
           </div>
-          <a className="card-link" href={github} target={"_blank"} rel="noreferrer" className="">Source code</a>
+          <a className="card-link" href={github} target={"_blank"} rel="noreferrer">Source code</a>
           <button className="btn btn-dark d-block">Live project</button>
         </div>
       </div>
