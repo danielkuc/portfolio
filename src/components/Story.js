@@ -68,6 +68,9 @@ const Story = () => {
                 <li className="list-group-flush"> <img src={redux} alt=""/> Redux</li>
               </ul>
           </div>
+          <p className="h3">Lets be creative together!</p>
+          <span>...or have a coffee</span>
+          <a href="">Get in touch.</a>
         </div>
       </div>
     </div>
