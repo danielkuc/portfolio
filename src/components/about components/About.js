@@ -6,7 +6,6 @@ const About = () => {
 
   return (
     <section ref={ref} className={`col-12 col-md-12 ${visible ? "fadeIn" : "fadeOut"}`}>
-      <p className="ml-50">Who is this guy anyway?</p>
       <span className="d-block">Good question, quick introductions are in order!
       My name is Dan, nice to meet you!</span>
       I am a front end, aspiring to full stack, developer and I hail from the sunny planet Earth,
