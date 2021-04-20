@@ -56,7 +56,7 @@ const Story = () => {
             <p>Philosophy</p>
               I believe life should be simple, less is sometimes more and simplifying things is a way to go. I strive to build fast, responsive and easy to use software, always focusing on the user experience.
           </div>
-          <div className={`col-12 col-md-12 mb-5 ${visible ? "fadeIn" : null}`}>
+          <div className={`col-12 col-md-12 ${visible ? "fadeIn" : null}`}>
             <p>Skills</p>
               <span>Here are some of the technologies I am most proficient with: </span>
               <ul className="list-group list-group-horizontal-md d-flex flex-wrap justify-content-around mt-4">
@@ -68,9 +68,11 @@ const Story = () => {
                 <li className="list-group-flush"> <img src={redux} alt=""/> Redux</li>
               </ul>
           </div>
+          <div className={`call-to-action col-12 ${visible ? "fadeIn" : null}`}>
           <p className="h3">Lets be creative together!</p>
-          <span>...or have a coffee</span>
-          <a href="">Get in touch.</a>
+          <p>...or have a coffee</p>
+          <a href="#">Get in touch!</a>
+          </div>
         </div>
       </div>
     </div>
