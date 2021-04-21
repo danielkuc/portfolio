@@ -13,12 +13,24 @@ body {
 
 .img-list img,
 li img {
-  height: 50px;
+  height: 40px;
   margin: 1rem;
 }
 
 .card {
   padding: 0 !important;
+}
+
+.card-title,
+.card-text {
+  font-size: 1.2rem;
+}
+
+.card-title {
+  background: var(--purpleBackground);
+  padding: 1rem;
+  color: white;
+  border-radius: 5px;
 }
 
 .text-main {
@@ -44,7 +56,8 @@ li {
   margin-bottom: 1rem;
 }
 
-div.about p {
+section p,
+.about p {
   border-bottom: solid 1px white;
   margin-top: 3rem;
 }
@@ -73,6 +86,10 @@ div.about p {
 .story {
   background-color: var(--blueBackground);
   color: white;
+}
+
+.call-to-action p {
+  border: 0;
 }
 
 /* ANIMATIONS */
