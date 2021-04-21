@@ -5,7 +5,7 @@ const About = () => {
   const [ref,visible] = useOnScreen({threshold: 0.5});
 
   return (
-    <section ref={ref} className={`col-12 col-md-12 ${visible ? "fadeIn" : "fadeOut"}`}>
+    <section ref={ref} className={`col-12 col-md-12 mb-5 ${visible ? "fadeIn" : "fadeOut"}`}>
       <span className="d-block">Good question, quick introductions are in order!
       My name is Dan, nice to meet you!</span>
       I am a front end, aspiring to full stack, developer and I hail from the sunny planet Earth,

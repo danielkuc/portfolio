@@ -12,7 +12,7 @@ const Skills = () => {
   const [ref, visible] = useOnScreen({threshold: 0.5});
 
   return (
-    <div ref={ref} className={`col-12 col-md-12 ${visible ? "fadeIn" : "fadeOut"} `}>
+    <div ref={ref} className={`col-12 col-md-12 mt-5 ${visible ? "fadeIn" : "fadeOut"} `}>
     <p>Skills</p>
       <span>Here are some of the technologies I am most proficient with: </span>
       <ul className="list-group list-group-horizontal-md d-flex flex-wrap justify-content-around mt-4">

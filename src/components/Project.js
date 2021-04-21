@@ -12,7 +12,7 @@ const Project = ({params}) => {
             {logos.map((img, index) => <img src={img} alt="" className="card-logo" key={index}/>)}
           </div>
           <a className="card-link" href={github} target={"_blank"} rel="noreferrer">Source code</a>
-          <button className="btn btn-dark d-block">Live project</button>
+          <button className="btn btn-dark d-block my-3">Live project</button>
         </div>
       </div>
   )
