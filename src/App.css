@@ -1,6 +1,7 @@
 :root {
   --blueBackground: #082447;
   --purpleBackground: #300091;
+  --lightGrey: #ededed;
 }
 
 body {
@@ -19,6 +20,7 @@ li img {
 
 .card {
   padding: 0 !important;
+  background-color: var(--lightGrey);
 }
 
 .card-title,
@@ -28,7 +30,7 @@ li img {
 
 .card-title {
   background: var(--purpleBackground);
-  padding: 1rem;
+  padding: 0.5rem;
   color: white;
   border-radius: 5px;
 }
