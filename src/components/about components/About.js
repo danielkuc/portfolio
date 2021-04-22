@@ -2,7 +2,7 @@ import React from 'react';
 import useOnScreen from '../hooks';
 
 const About = () => {
-  const [ref,visible] = useOnScreen({threshold: 0.5});
+  const [ref,visible] = useOnScreen({threshold: 0.3});
 
   return (
     <section ref={ref} className={`col-12 col-md-12 mb-5 ${visible ? "fadeIn" : "fadeOut"}`}>

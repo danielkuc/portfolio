@@ -2,7 +2,7 @@ import React from 'react';
 import useOnScreen from '../hooks';
 
 const Philosophy = () => {
-  const [ref,visible] = useOnScreen({threshold: 0.5});
+  const [ref,visible] = useOnScreen({threshold: 0.2});
 
   return (
     <section ref={ref} className={`col-12 col-md-6 ${visible ? "fadeInRight" : null}`} >

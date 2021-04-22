@@ -21,6 +21,7 @@ li img {
 .card {
   padding: 0 !important;
   background-color: var(--lightGrey);
+  overflow: hidden;
 }
 
 .card-title,
@@ -33,6 +34,11 @@ li img {
   padding: 0.5rem;
   color: white;
   border-radius: 5px;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: all 0.5s linear;
 }
 
 .text-main {
@@ -90,8 +96,12 @@ section p,
   color: white;
 }
 
-.call-to-action p {
+.call-to-action p,
+.call-to-action a {
   border: 0;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 /* ANIMATIONS */
