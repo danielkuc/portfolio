@@ -6,6 +6,7 @@
     "description": "An e-commerce app made to practice",
     "logos": ["/images/react.svg", "/images/css3.svg", "/images/javascript.svg", "images/bootstrap.svg"],
     "github": "https://github.com/danielpeterkuc/StoreFront",
+    "alt": ["React","CSS","JavaScript","Bootstrap"],
     "projectImg": "/images/Store.png"
   }
 ]

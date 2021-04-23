@@ -24,16 +24,18 @@ li img {
   overflow: hidden;
 }
 
-.card-title,
 .card-text {
   font-size: 1.2rem;
+  font-style: italic;
 }
 
 .card-title {
-  background: var(--blueBackground);
+  /* background: var(--blueBackground); */
   padding: 0.5rem;
-  color: white;
+  color: black;
+  font-weight: bold;
   border-radius: 5px;
+  font-size: 1.2rem;
 }
 
 .card-img-top:hover {
