@@ -30,7 +30,7 @@ li img {
 }
 
 .card-title {
-  background: var(--purpleBackground);
+  background: var(--blueBackground);
   padding: 0.5rem;
   color: white;
   border-radius: 5px;

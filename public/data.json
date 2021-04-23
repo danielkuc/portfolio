@@ -4,7 +4,7 @@
     "id": 1,
     "title":"E-commerce Store-Front",
     "description": "An e-commerce app made to practice",
-    "logos": ["/images/react.svg", "/images/css3.svg", "/images/javascript.svg"],
+    "logos": ["/images/react.svg", "/images/css3.svg", "/images/javascript.svg", "images/bootstrap.svg"],
     "github": "https://github.com/danielpeterkuc/StoreFront",
     "projectImg": "/images/Store.png"
   }
