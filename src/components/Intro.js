@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div className="position-relative">
       <div className="info text-center">
-        <p className="text-main fadeInDown">Daniel Peter Kuc</p>
+        <p className="text-main fadeInDown">Daniel Kuc</p>
         <Header/>
       </div>
       <Background />
