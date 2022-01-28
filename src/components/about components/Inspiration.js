@@ -8,8 +8,8 @@ const Inspiration = () => {
   return (
       <section ref={ref} className={`col-12 col-md-6 ${visible ? "fadeInLeft" : null}`}>
         <p>Inspiration</p>
-          What makes a person tick? In my case it's challenge, I enjoy setting myself goals, learning new things and testing my limits while keeping things simple. Just because something is challenging it doesn't mean it can't be simple in it's nature. 
-          My surrounding, environment and people around me are a constant inspiration to push myself further and a source of motivation.
+          What makes a person tick? In my case it's challenge, I enjoy setting myself goals, learning new things and testing my limits. 
+          My surrounding, environment and people around me are a constant inspiration to push myself further.
       </section>
   )
 }
