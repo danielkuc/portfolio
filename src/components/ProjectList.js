@@ -25,8 +25,8 @@ const ProjectList = () => {
         <p>These are the projects I've spent most time working on and keep coming back to. Some of them are passion projects, some are learning projects. Most are made for fun!</p>
         <div className="row">
           {projects.map(project => {
-            const  {title, description, logos, id, github, projectImg,alt} = project;
-            const params = {title,description,logos,github, projectImg,alt};
+            const  {title, description, logos, id, github,link, projectImg,alt} = project;
+            const params = {title,description,logos,github,link, projectImg,alt};
             return <Project params={params} key={id}/>
           })}
         </div>

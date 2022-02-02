@@ -5,7 +5,8 @@
     "title":"E-commerce Store-Front",
     "description": "An e-commerce Single Page Application made using React, functional components and hooks, used fetch and axios and and external makeup fake-store API. ",
     "logos": ["/images/react.svg", "/images/css3.svg", "/images/javascript.svg", "images/bootstrap.svg"],
-    "github": "https://github.com/danielpeterkuc/StoreFront",
+    "github": "https://github.com/danielkuc/BlushBay",
+    "link": "https://blushbay.netlify.app/",
     "alt": ["React","CSS","JavaScript","Bootstrap"],
     "projectImg": "/images/Store.png"
   }
