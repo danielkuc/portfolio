@@ -15,7 +15,7 @@ const Footer = () => {
         <a href="https://github.com/danielkuc" target="_blank" rel="noreferrer">
           <img src={github} alt="" className='bg-white mh-50 h-50 rounded-circle'/>
         </a>
-        <a href="https://github.com/danielkuc" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/daniel-kuc-3b9486230/" target="_blank" rel="noreferrer">
           <img src={linkedin} alt="" className='bg-white mh-50 h-50 rounded'/>
         </a>
       </div>
