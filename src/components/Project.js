@@ -3,7 +3,7 @@ import React from 'react'
 const Project = ({params}) => {
   const {title, description,logos, github,link, projectImg, alt} = params
   return (
-      <div className="card col-12 col-md-6 col-lg-4 mt-3">
+      <div className="card col-12 col-md-6 col-lg-4 m-3">
         <img className="card-img-top" src={projectImg} alt={projectImg}/>
         <div className="card-body mx-4">
           <p className="card-title">{title}</p>
