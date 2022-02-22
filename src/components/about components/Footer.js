@@ -13,10 +13,10 @@ const Footer = () => {
       <a className="mb-5" href="mailto:danpkuc@gmail.com">Get in touch!</a>
       <div className='mx-auto d-flex'>
         <a href="https://github.com/danielkuc" target="_blank" rel="noreferrer">
-          <img src={github} alt="" className='bg-white mh-50 h-50 rounded-circle'/>
+          <img src={github} alt="" className='bg-white mh-50 h-50 rounded-circle mx-3'/>
         </a>
         <a href="https://www.linkedin.com/in/daniel-kuc-3b9486230/" target="_blank" rel="noreferrer">
-          <img src={linkedin} alt="" className='bg-white mh-50 h-50 rounded'/>
+          <img src={linkedin} alt="" className='bg-white mh-50 h-50 rounded mx-3'/>
         </a>
       </div>
     </section>
