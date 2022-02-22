@@ -13,8 +13,8 @@
   {
     "id": 2,
     "title" : "Full stack e commerce application",
-    "description" : "Test",
-    "logos" : ["/images/react.svg", "/images/css3.svg", "/images/javascript.svg", "images/c.svg"],
+    "description" : "Full stack e-commerce applications. Using Auth0 and hosted on Azure. Under construction.",
+    "logos" : ["/images/react.svg", "/images/javascript.svg", "/images/core.svg", "images/c.svg"],
     "github" : "https://github.com/danielkuc/BlushBay",
     "link" : "https://the-exchange.netlify.app",
     "alt": ["React","CSS","JavaScript","C#"]
