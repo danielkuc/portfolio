@@ -15,13 +15,8 @@
     "title" : "Full stack e commerce application",
     "description" : "Web API for an e-commerce project deployed on Azure. Functionality: creating, modifying and retrieving products from a Mongo database through endpoint requests. Creation and management of shopping cart and processing of orders. Implements Auth0 and CI/CD pipeline. While developing the app I've used CQRS, vertical slice and mediator patterns.",
     "logos" : ["/images/react.svg", "/images/javascript.svg", "/images/core.svg", "images/c.svg"],
-<<<<<<< HEAD
     "github" : "https://github.com/danielkuc/TheExchangeApi",
     "link" : "https://the-exchange.netlify.app",
-=======
-    "github" : "https://github.com/danielkuc/BlushBay",
-    "link" : "https://exchange-shop.netlify.app/",
->>>>>>> 916c671ce737671aaa951e945f36419e6c61fba3
     "alt": ["React","CSS","JavaScript","C#"]
   }
 ]
