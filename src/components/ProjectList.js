@@ -22,7 +22,7 @@ const ProjectList = () => {
     <div className="project p-3 mb-5">
       <div className="container">
         <p className="h3 text-center py-2">Some of the projects I worked on.</p>
-        <p>These are the projects I've spent most time working on and keep coming back to. Some of them are passion projects, some are learning projects. Most are made for fun!</p>
+        <p>These are the projects I've spent most time working on and keep coming back to. Some of them are passion projects, some are learning projects.</p>
         <div className="row">
           {projects.map(project => {
             const  {title, description, logos, id, github,link, projectImg,alt} = project;

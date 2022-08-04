@@ -10,7 +10,7 @@ const Story = () => {
     <div className="story">
       <div className="container">
         <div className="row about">
-        <p className="mx-auto my-5">Who is this guy anyway?</p>
+        <p className="mx-auto my-5 display-4">Welcome.</p>
           <About/>
           <Inspiration/>
           <Philosophy/>
